@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sara Stray</title>
+    <style>
+        * {margin: 5px;
+        padding: 0;
+    font-family: sans-serif;
+}
+#canvas {
+    position: absolute;
+    background: rgba(92, 195, 246, 1);
+}
+    </style>
+</head>
+<body>
+ <h1>Sara</h1> 
+ <canvas id="canvas"></canvas>
+
+ <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+canvas.width = 120;
+canvas.height = 120;
+
+ctx.beginPath();
+ctx.fillStyle= "pink";
+ctx.fillRect(20, 0, 10, 120);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle= "red";
+ctx.fillRect(70, 20, 20, 100);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle= "green";
+ctx.fillRect(0, 15, 120, 15);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(80, 30, 20, 0, 2 * Math.PI)
+ctx.fillStyle= "yellow";
+ctx.strokeStyle="yellow";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(10, 90);
+ctx.lineTo(50, 90);
+ctx.lineTo(30, 50);
+ctx.lineTo(10, 90);
+ctx.fillStyle="orange";
+ctx.strokeStyle="orange";
+ctx.fill();
+ctx.stroke();
+
+console.log(ctx)
+  </script>
+
+<svg width="200" height="300" >
+    <rect x="0" y="150" width="120" height="120"
+style="fill:rgba(92, 195, 246, 1)" />
+
+<rect x="20" y="150" width="10" height="120"
+style="fill: pink"/>
+
+<rect x="0" y="170" width="120" height="15"
+style="fill: green"/>
+
+<rect x="70" y="170" width="20" height="100"
+style="fill: red"/>
+
+<circle cx="80" cy="180" r="20"
+style="fill: rgb(241, 241, 5)" />
+
+<polygon points="30,210   10,250   50,250"
+style="fill: orange"/>
+
+  </svg>
+</body>
+</html>
