@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  gird-template-columns: auto auto auto;
+  background-color: Tomato;
+  padding: 10px;
+}
+.grid-item {
+  background-color: powderblue;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+.grid-item1 {
+grid-row: 1 / span 2;
+}
+.grid-item2 {
+grid-row: 1 / span 2;
+}
+.grid-item3 {
+grid-row: 1 / span 2;
+}
+.grid-item4 {
+grid-row: 1 / span 2;
+}
+.grid-item5 {
+grid-row: 1 / span 2;
+}
+.grid-item6 {
+grid-row: 1 / span 2;
+}
