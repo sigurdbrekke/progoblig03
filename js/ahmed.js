@@ -24,7 +24,6 @@ ctx.strokeStyle="white";
 ctx.fill();
 ctx.stroke();
 
-
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "15px Arial";
