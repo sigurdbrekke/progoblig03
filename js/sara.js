@@ -39,14 +39,3 @@ ctx.fill();
 ctx.stroke();
 
 console.log(ctx)
-
-function convertToImage() {
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    const image = new Image();
-    image.scr = canvas.toDataURL();
-    const link = document.createElement("a");
-    link.href = image.scr;
-    link.download = 'canvas_image.png';
-    link.click();
-}
