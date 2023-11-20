@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sara Stray</title>
-    <style>
-        * {margin: 5px;
-        padding: 0;
-    font-family: sans-serif;
-}
-#canvas {
-    position: absolute;
-    background: rgba(92, 195, 246, 1);
-}
-    </style>
+    <link rel="stylesheet" href="C:\Users\Sara Marie Stray\Desktop\progoblig03\css\sara.css">
+
 </head>
 <body>
+
  <h1>Sara</h1>
  <canvas id="canvas"></canvas>
 
  <script>
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
+   
+
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
 
 canvas.width = 120;
 canvas.height = 120;
@@ -41,25 +36,11 @@ ctx.fillStyle= "green";
 ctx.fillRect(0, 15, 120, 15);
 ctx.stroke();
 
-ctx.beginPath();
-ctx.arc(80, 30, 20, 0, 2 * Math.PI)
-ctx.fillStyle= "yellow";
-ctx.strokeStyle="yellow";
-ctx.fill();
-ctx.stroke();
+ <h1>Sara</h1> 
+ <canvas id="canvas" width="120" height="120"></canvas>
+   
 
-ctx.beginPath();
-ctx.moveTo(10, 90);
-ctx.lineTo(50, 90);
-ctx.lineTo(30, 50);
-ctx.lineTo(10, 90);
-ctx.fillStyle="orange";
-ctx.strokeStyle="orange";
-ctx.fill();
-ctx.stroke();
-
-console.log(ctx)
-  </script>
+ <link rel="stylesheet" href="C:\Users\Sara Marie Stray\Desktop\progoblig03\js\sara.js">
 
 <svg width="200" height="300" >
     <rect x="0" y="150" width="120" height="120"
@@ -79,7 +60,9 @@ style="fill: rgb(241, 241, 5)" />
 
 <polygon points="30,210   10,250   50,250"
 style="fill: orange"/>
-
   </svg>
+
+  <p><a href="https://code.pyret.org/editor#program=1UDyjJ3h-HunbBZrLlomsx-rYwLvy3wCI" target="_blank">Pyret kode</a></p>
+
 </body>
 </html>
