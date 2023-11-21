@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<h1> Henrik Sæverud Lorentzen </h1>
-<style>
-    * {margin: 15px;
-     padding: 0;
-    font-family: sans-serif;
-    }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 style="background-color:olive;">Henrik Sæverud Lorentzen</h1>
 
-<link rel="stylesheet" href="style.css">
+    <h2 style="color: blue;">Om meg</h2>
+    <p>20 år</p>
+    <p>Stavanger</p>
+   
+    <h3 style="color:blue;">Hva jeg har lært og fått litt kunnskap om</h3>
+    <p>Pyret og litt forståelse om HTML, CSS og JS</p>
+    <p>Hvordan vi jobber i prosjekt, og hvordan det er lurt å tilnærme krevende oppgaver som gruppe</p>
+   
+    <h4 style="color:blue">Figurer og pyret linker</h4>
+   <img src="CO2.png"alt="CO2-chart"
 
 
+<canvas id="Smiley"></canvas>
+  <script>
+ const canvas = document.getElementById("Smiley");
+  const ctx = canvas.getContext("2d");
 
-<svg id="Smiley" xmlns="http://www.w3.org/2000/svg"></svg>
+  ctx.beginPath();
+  ctx.arc(150, 70, 70 ,70, 70 * Math.PI)
+  ctx.fillStyle = "#FFE4C4";
+  ctx.strokeStyle="#FFE4C4";
+  ctx.fill();
+  ctx.stroke();
 
-function overlay_xy(ctx, dx, dy, circle) {
-    ctx.appendChild(circle)
-}
+  ctx.beginPath();
+  ctx.arc(120, 50, 10 ,10, 10 * Math.PI)
+  ctx.fillStyle = "black";
+  ctx.strokeStyle="black";
+  ctx.fill();
+  ctx.stroke();
 
-svg.appendChild(circle(50, "solid", "black"));
+  ctx.beginPath();
+  ctx.arc(180, 50, 10 ,10, 10 * Math.PI)
+  ctx.fillStyle = "black";
+  ctx.strokeStyle="black";
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.fillStyle = "black";
+  ctx.strokeStyle="black";
+  ctx.fillRect(110, 90, 80, 20);
+  ctx.fill();
+  ctx.stroke();
 
 </script>
+</canvas>
+
+<svg>
+<script>
+
+<circle cx="25" cy="75" r="20"/>
+
+
+</svg>
+</script>
+
 
 </body>
 </html>
