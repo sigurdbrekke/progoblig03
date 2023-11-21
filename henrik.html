@@ -3,24 +3,25 @@
 <head>
  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+ <h1 style="background-color:olive;">Henrik Sæverud Lorentzen</h1>
+
+ <h2 style="color: blue;">Om meg</h2>
+ <p>20 år</p>
+ <p>Stavanger</p>
+
+ <h3 style="color:blue;">Hva jeg har lært og fått litt kunnskap om</h3>
+ <p>Pyret og litt forståelse om HTML, CSS og JS</p>
+ <p>Hvordan vi jobber i prosjekt, og hvordan det er lurt å tilnærme krevende oppgaver som gruppe</p>
+
+ <h4 style="color:blue">Figurer</h4>
+
+
 </head>
 <body>
-    <h1 style="background-color:olive;">Henrik Sæverud Lorentzen</h1>
 
-    <h2 style="color: blue;">Om meg</h2>
-    <p>20 år</p>
-    <p>Stavanger</p>
-   
-    <h3 style="color:blue;">Hva jeg har lært og fått litt kunnskap om</h3>
-    <p>Pyret og litt forståelse om HTML, CSS og JS</p>
-    <p>Hvordan vi jobber i prosjekt, og hvordan det er lurt å tilnærme krevende oppgaver som gruppe</p>
-   
-    <h4 style="color:blue">Figurer og pyret linker</h4>
-   <img src="CO2.png"alt="CO2-chart"
+<link rel="stylesheet" href="style.css">
 
-
-<canvas id="Smiley"></canvas>
+<canvas id="Smiley">
   <script>
  const canvas = document.getElementById("Smiley");
   const ctx = canvas.getContext("2d");
@@ -53,19 +54,25 @@
   ctx.fill();
   ctx.stroke();
 
+  console.log(ctx);
+
 </script>
 </canvas>
 
-<svg>
-<script>
-
-<circle cx="25" cy="75" r="20"/>
 
 
+<svg width="200" height="200">
+   <circle cx="100" cy="100" r="70" stroke="bisque" stroke-width="4" fill="bisque" />
+   <circle cx="130" cy="80" r="10" stroke="black" stroke-width="4" fill="black" />
+   <circle cx="70" cy="80" r="10" stroke="black" stroke-width="4" fill="black" />
+  <rect x="60" y="120" width="80" height="20"
+  stroke-width="4" fill="black" />
 </svg>
-</script>
 
+
+
+<h5 style="color:blue">Figurer</h5>
+<img src="images/co2.JPG" width="200" height="200">
 
 </body>
 </html>
-
