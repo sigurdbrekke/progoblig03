@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
 </canvas>
 
@@ -30,6 +26,3 @@ ctx.font = "15px Arial";
 ctx.strokeStyle = "black";
 ctx.strokeText("8", 88, 55);
 </script> 
-
-</body>
-</html>
