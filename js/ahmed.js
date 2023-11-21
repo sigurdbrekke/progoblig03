@@ -22,7 +22,11 @@ ctx.stroke();
 
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-ctx.font = "15px Arial";
+ctx.font = "15px Verdana";
 ctx.strokeStyle = "black";
 ctx.strokeText("8", 88, 55);
 </script> 
+
+</body>
+</html>
+
