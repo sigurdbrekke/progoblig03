@@ -4,9 +4,14 @@ body{
 font-family: 'Times New Roman', Times, serif;
 }
 
+
 h1{
     font-family: 'Times New Roman', Times, serif;
 
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #canvas {
@@ -16,4 +21,7 @@ background: rgba(255, 255, 255, 1);
 #svg {
 position: absolute;
 background: rgba(255, 255, 255, 1);
+
+}
+
 }

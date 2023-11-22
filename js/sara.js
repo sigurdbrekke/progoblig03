@@ -38,4 +38,7 @@ ctx.strokeStyle="rgba(246, 200, 50, 1";
 ctx.fill();
 ctx.stroke();
 
+
+console.log(ctx)
+
 console.log(ctx)

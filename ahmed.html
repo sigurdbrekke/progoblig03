@@ -29,13 +29,22 @@
       <text fill="black" font-size="30" font-family="Verdana" x="50" y="70">8</text>
       </svg>
 
+
+
       <p>Her kan vi se første figuren jeg laget som er en 8 ball brukt i biljard. Denne figuren var laget ved bruken av SVG API, hvor jeg fant informasjonen og hjelp som jeg trengte på w3schools og developer mozilla.</p>
      <p>I dette eksemplet, startet jeg med en hvit sirkel med en svart 'outline'. Så økte jeg tykkelsen på 'outline' som ga meg en mindre hvit sirkel i midten. Etterpå, lagt jeg litt tekst over den hvite sirkelen, som var tallet 8.</p>
 
     <h4>Figur 2</h4>
 
+
      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
     </canvas>
+
+
+    
+     <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    </canvas>
+    
 
     <script>
     var c = document.getElementById("myCanvas");
@@ -55,13 +64,16 @@
     ctx.strokeStyle="white";
     ctx.fill();
     ctx.stroke();
-
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
     ctx.font = "15px Verdana";
     ctx.strokeStyle = "black";
     ctx.strokeText("8", 88, 55);
+
     </script>
+
+    </script> 
+
 
     <p>Her kan vi se andre figuren jeg laget ved hjelp av Canvas API, som er også en 8 ball brukt i biljard. Jeg laget først en "canvas" som var et rektangel der figuren min skulle plasseres. Jeg laget deretter to sirkler, og satte den lille hvite sirkelen på toppen av den større svarte sirkelen.</p>
     <p>Jeg la deretter til tekst på toppen av den hvite sirkelen hvor jeg brukte inspirasjon fra prosessen med å lage figuren ved bruken av SVG.</p>
@@ -70,6 +82,12 @@
 
     <p>Her har vi linken til tredje figuren som var laget i pyret ;</p>
     <p><a href="https://github.com/ahmedanwar2/progoblig03-8-ball">Pyret koden</a></p>
+
+
+    
+    <p>Her har vi linken til tredje figuren som var laget i pyret ;</p>
+    <p><a href="https://github.com/ahmedanwar2/progoblig03-8-ball">Pyret koden</a></p>
+    
 
      <h3 style="color:dodgerblue;">Bar-chart</h3>
      <img src="images/barchart.JPG" width="500" height="333">
@@ -93,6 +111,5 @@
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="black" stroke-width="" fill="white" />
      </svg>
-
 </body>
 </html>
