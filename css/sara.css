@@ -2,14 +2,13 @@ body{
     margin: 5px;
     padding: 0;
 font-family: 'Times New Roman', Times, serif;
+}
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
     
 }
 
-}
 #canvas {
 position: absolute;
 background: rgba(255, 255, 255, 1);
