@@ -1,0 +1,12 @@
+body {
+  background-color: tomato;
+}
+
+h1 {
+  color: tomato;
+}
+
+Canvas {
+position: absolute;
+background: black;
+}

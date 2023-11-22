@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ahmed</title>
+</head>
+<body>
+  <h1 style="background-color:DodgerBlue;">Ahmed Anwar</h1>
+<h3 style="color:dodgerblue;">Introduksjon</h3>
+    <p>Hei, Jeg heter Ahmed og 19 år gammel. Jeg studere IT og informasjonssystemer her på UIA.</p>
+<h3 style="color:dodgerblue;">Fullført oppgaver</h3>
+    <p>I løpet av denne perioden med IS-114, har jeg lærte mye fra de ulike oppgavene som f.eks, ;
+    <p>- barnehage oppgavene</p>
+    <p>- prosjektoblig oppgavene</p>
+    <p>- progoblig oppgavene</p>
+<h3 style="color:dodgerblue;">Ferdighetene og ting jeg lærte</h3>
+    <p>Ting jeg har lærte underveis og ferdighetene jeg fikk er ;</p>
+    <p>- forståelsen av programmering generelt og tilnærmingen å ha når man lærer forskjellige programmeringsspråk.</p>
+    <p>- Pyret, hvor jeg lærte å bli mer komfortabel med å eksperimentere med ny kode og finne ny informasjon på nettet gjennom ressurser som pyret docs.</p>
+    <p>- Github, hvor jeg lærte å bli mer effektiv som en gruppe når jeg jobbet med kode.</p>
+    <p>- html og css, hvor jeg lærte å lage forskjellige ting som f.eks. 'headings', 'paragraphs', 'styles', farger og figurer hvor jeg fant informasjon gjennom ressurser som w3schools.</p>
+
+<h3 style="color:dodgerblue;">Figurer</h3>
+    <h4>Figur 1</h4>
+    <svg width="250" height="250">
+        <circle cx="60" cy="60" r="40"
+        stroke="black" stroke-width="30" fill="white" />
+      <text fill="black" font-size="30" font-family="Verdana" x="50" y="70">8</text>
+      </svg>
+    
+      <p>Her kan vi se første figuren jeg laget som er en 8 ball brukt i biljard. Denne figuren var laget ved bruken av SVG API, hvor jeg fant informasjonen og hjelp som jeg trengte på w3schools og developer mozilla.</p>
+     <p>I dette eksemplet, startet jeg med en hvit sirkel med en svart 'outline'. Så økte jeg tykkelsen på 'outline' som ga meg en mindre hvit sirkel i midten. Etterpå, lagt jeg litt tekst over den hvite sirkelen, som var tallet 8.</p>
+
+    <h4>Figur 2</h4>
+    
+     <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    </canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI)
+    ctx.fillStyle= "black";
+    ctx.strokeStyle="black";
+    ctx.fill();
+    ctx.stroke();
+    
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(92.5, 50, 15, 0, 2 * Math.PI)
+    ctx.fillStyle= "white";
+    ctx.strokeStyle="white";
+    ctx.fill();
+    ctx.stroke();
+    
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "15px Verdana";
+    ctx.strokeStyle = "black";
+    ctx.strokeText("8", 88, 55);
+    </script> 
+
+    <p>Her kan vi se andre figuren jeg laget ved hjelp av Canvas API, som er også en 8 ball brukt i biljard. Jeg laget først en "canvas" som var et rektangel der figuren min skulle plasseres. Jeg laget deretter to sirkler, og satte den lille hvite sirkelen på toppen av den større svarte sirkelen.</p>
+    <p>Jeg la deretter til tekst på toppen av den hvite sirkelen hvor jeg brukte inspirasjon fra prosessen med å lage figuren ved bruken av SVG.</p>
+
+    <h4>Figur 3</h4>
+    
+    <p>Her har vi linken til tredje figuren som var laget i pyret ;</p>
+    <p><a href="https://github.com/ahmedanwar2/progoblig03-8-ball">Pyret koden</a></p>
+    
+     <h3 style="color:dodgerblue;">Bar-chart</h3>
+     <img src="images/barchart.JPG" width="500" height="333">
+     <p>Her kan vi se bar-charten som viser mitt klimafotavtrykk og hvor mye Co2 jeg utslipper hver dag. Først, startet jeg med å utforske hvor mye et individ i gjennomsnitt slipper ut hver dag. Svaret jeg fant gjennom min forskning var 2.3 lbs per dag.</p>
+     <p>Etterpå, skilte jeg utslippet gjennom en rekke kategorier</p>
+     <p>Dette inkluderte ;</p>
+     <p>- Hus</p>
+     <p>- Mat</p>
+     <p>- Energi</p>
+     <p>- Transport</p>
+     <p>- Forbruk</p>
+
+   <p>Fra bar-charten kan vi se at transport er mye for meg siden jeg bruker bussen hver dag for å gå til byen og skolen. Men familien min eier ikke en bil, noe som kan sees på som positivt når man snakker om klimafotavtrykket ditt.</p>
+     <p>For min del, hus er ikke et stor del av klimafotavtrykket mitt siden jeg fortsatt bor med familien min og i tilleg jeg bor gratis der. </p>
+     <p>Mat kan sees på som en ganske stor del på grunn av at jeg spiser kjøtt regelmessig og spiser ute når jeg har tid.</p>
+     <p>Energi kan også sees på som en stor del med at jeg bruker mye av det på teknologien jeg bruker og livsstilen jeg lever.</p>
+     <p>Forbruk er rett under, på grunn av at jeg kjøper klær når jeg kan, men jeg gir klær til brødrene mine for å gjenbruke hvis de ikke passer meg lenger.</p>
+
+    <canvas id="Canvas" width="300" height="150" style="border:2px solid black;"></canvas>
+   
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="" fill="white" />
+     </svg>
+</body>
+</html>
