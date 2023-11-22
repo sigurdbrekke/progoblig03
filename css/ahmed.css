@@ -1,7 +1,11 @@
 body {
-    background-color: dodgerblue;
-  }
+  background: whitesmoke;
+}  
   
   h1 {
+    background-color: dodgerblue;
+  }
+
+  h3 {
     color: dodgerblue;
   }

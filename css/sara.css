@@ -1,14 +1,19 @@
 body{
     margin: 5px;
     padding: 0;
-font-family: serif;
-
+font-family: 'Times New Roman', Times, serif;
 }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
 #canvas {
 position: absolute;
 background: rgba(255, 255, 255, 1);
 }
 #svg {
-    position: absolute;
-    background: rgba(255, 255, 255, 1);
+position: absolute;
+background: rgba(255, 255, 255, 1);
 }
