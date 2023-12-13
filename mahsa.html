@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mahsa Rasoli </title>
+    <link rel="stylesheet" href="C:\Users\sigur\OneDrive\Desktop\IS114\progoblig03\css\mahsa.css">
+</head>
+<body>
+<ul>
+  <li><a href="index.html">Forside</a></li>
+  <li><a href="sigurd.html">Sigurd</a></li>
+  <li><a href="sara.html">Sara</a></li>
+  <li><a href="ahmed.html">Ahmed</a></li>
+  <li><a href="zakariyaa.html">Zakariyaa</a></li>
+  <li><a href="henrik.html">Henrik</a></li>
+  <li><a class="active" href="mahsa.html">Mahsa</a></li>
+</ul>
+
 <p>
-    <h1 style="background-color:pink";>Mahsa Rasoli</h1>
+    <h1>Mahsa Rasoli</h1>
 
     <img src="images/bilde av meg.JPG" height="340" width="200">
-    
+
     <p><h4> FUN FACTS:</h4></p>
 
     <div>Hater smatting, men elsker bakgrunnslyd, </div>
@@ -19,48 +32,20 @@
     <div>I løpet av IS-114 har jeg lært ulike kodespråk som javascript, pyret og html</div>
     <div>å holde alle kodene og filene organsiert</div>
     <div>lært å pushe og klone til github</div>
-    </p>   
+    </p>
 
     <p>
         <a href="https://github.com/Mahsar03/progoblig3/blob/main/Rasoli.arr" target="_blank">Pyret kode</a>
     </p>
 
-</head>
-
-<body>
 
     <p>
         <div><h4> C a n v a s </h4></div>
         </p>
 
-    <canvas id="Canvas" width="220" height="150" style="border:2px solid rgb(0, 0, 0);"></canvas>
-    
-    <script>
-    var c = document.getElementById("Canvas");
-    var ctx = c.getContext("2d");
+<canvas id="Canvas" width="220" height="150" style="border:2px solid rgb(0, 0, 0);"></canvas>
 
-
-    ctx.beginPath();
-    ctx.fillstyle = "black";
-    ctx.fillRect(350, 40, 0, 0.3);
-    ctx.stroke();
-
-    ctx.beginPath();
-    ctx.arc(75,75,50,0,2*Math.PI);
-    ctx.fillStyle= "turquoise";
-    ctx.strokeStyle= "turquoise";
-    ctx.stroke();
-    ctx.fill()
-
-    ctx.beginPath();
-    ctx.arc(150,75,50,0,2*Math.PI);
-    ctx.fillStyle= "pink";
-    ctx.strokeStyle= "pink";
-    ctx.fill();
-    ctx.stroke();
-
-
-</script>
+<script src="C:\Users\sigur\OneDrive\Desktop\IS114\progoblig03\js\mahsa.js"></script>
 
 <p>
 <div><h4> S V G </h4></div>
@@ -68,16 +53,16 @@
 
 <p>
 <svg width="250" height="160" >
-    
-    <rect x="2" y="2" width="220" height="150" 
+
+    <rect x="2" y="2" width="220" height="150"
     style="fill: none; stroke: black; stroke-width: 2;"/>
 
-   
-    <circle cx="80" cy="75" r="52" 
+
+    <circle cx="80" cy="75" r="52"
     style="fill: turquoise; stroke: none;"/>
 
-    
-    <circle cx="150" cy="75" r="52" 
+
+    <circle cx="150" cy="75" r="52"
     style="fill: pink; stroke: none;"/>
 
 </svg>

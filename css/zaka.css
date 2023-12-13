@@ -1,13 +1,11 @@
-body {
-  background: white;
+.canvas {
+  position: absolute;
+  background: rgba(255, 255, 255, 1);
 }
 
-h1 {
-  background-color: pink;
-}
-
-h4 {
-  color: black;
+.svg {
+  position: left;
+  background: rgba(255, 255, 255, 1);
 }
 
 ul {

@@ -1,7 +1,3 @@
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-</canvas>
-
-<script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.beginPath();
@@ -25,8 +21,3 @@ var ctx = c.getContext("2d");
 ctx.font = "15px Verdana";
 ctx.strokeStyle = "black";
 ctx.strokeText("8", 88, 55);
-</script> 
-
-</body>
-</html>
-

@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zakariyaa Hashi</title>
+    <link rel="stylesheet" href="C:\Users\sigur\OneDrive\Desktop\IS114\progoblig03\css\zaka.css">
 </head>
 <body>
+
+  <ul>
+  <li><a href="index.html">Forside</a></li>
+  <li><a href="sigurd.html">Sigurd</a></li>
+  <li><a href="sara.html">Sara</a></li>
+  <li><a href="ahmed.html">Ahmed</a></li>
+  <li><a class="active" href="zakariyaa.html">Zakariyaa</a></li>
+  <li><a href="henrik.html">Henrik</a></li>
+  <li><a href="mahsa.html">Mahsa</a></li>
+</ul>
+
     <h1>Zakariyaa Hashi</h1>
     <h3>Introduksjon</h3>
     <p>Hei, jeg heter Zakariyaa, er 20 år gammel og studerer IT og informasjonssystemer ved Universitetet i Agder.</p>
 
     <h3>Om Meg</h3>
     <p>Jeg er student og er interessert i informatikk og teknologi. Aktiviteter dette semesteret:</p>
-    <ul>
-        <li>Barnehagecaset/prosjektoblig (gruppearbeid over halve semesteret)</li>
-        <li>Progoblig 1-3 (jobber hovedsakelig med pyret.org)</li>
-    </ul>
+        <p>Barnehagecaset/prosjektoblig (gruppearbeid over halve semesteret)</p>
+        <p>Progoblig 1-3 (jobber hovedsakelig med pyret.org)</p>
 
     <h3>Læringsutbytte</h3>
     <p>Så langt dette semesteret har jeg tilegnet meg ferdigheter innen GitHub og lært hvordan man programmerer i Pyret samt det tilhørende programmeringsspråket.</p>
@@ -23,28 +33,11 @@
     <p>hvordan det er å jobbe i gruppe med en case som f.eks. barnehagecaset</p>
 
     <!-- Nederlandsk flagg: Canvas kode -->
+    <figcaption>Flagget til Nederland gjort på canvas</figcaption>
     <canvas id="dutchFlagCanvas" width="150" height="100"></canvas>
-    <script>
-        var canvas = document.getElementById("dutchFlagCanvas");
-        var context = canvas.getContext("2d");
+    <script src="C:\Users\sigur\OneDrive\Desktop\IS114\progoblig03\js\Zakariyaa.js"></script>
 
-        // nederlandske flagget på canvas
-        context.fillStyle = "#e41e26"; // rød
-        context.fillRect(0, 0, canvas.width, canvas.height / 3);
 
-        context.fillStyle = "#ffffff"; // hvit
-        context.fillRect(0, canvas.height / 3, canvas.width, canvas.height / 3);
-
-        context.fillStyle = "#0072c6"; // blå
-        context.fillRect(0, (canvas.height / 3) * 2, canvas.width, canvas.height / 3);
-        
-        // Tekst under canvas-flagget
-        context.font = "12px Arial";
-        context.fillStyle = "#000000"; // svart
-        context.fillText("Nederlandsk flagg gjort på canvas", 10, canvas.height + 15);
-    </script>
-<figcaption>Flagget til Nederland gjort på canvas</figcaption>
-   
 
 <!-- Nederlandsk flagg: SVG kode -->
     <figure>

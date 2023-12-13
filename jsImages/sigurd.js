@@ -16,3 +16,5 @@ var ctx = c.getContext("2d");
    ctx.strokeStyle= "black";
    ctx.fill();
    ctx.stroke();
+
+console.log();

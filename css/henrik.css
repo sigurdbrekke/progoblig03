@@ -1,27 +1,61 @@
 
 body {
-    background-color: white;
+    color: white;
 }
 
   h1 {
-background-color: blue;
+color: blue;
 
 }
 
 h2 {
-background-color: blue;
-    
+color: blue;
+
 }
 
  h3 {
-background-color: blue;
-        
+color: blue;
+
 }
  h4 {
- background-color: blue;
-            
+ color: blue;
+
 }
   h5 {
- background-color: blue;
-                
+ color: blue;
+
 }
+
+p{
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(123, 3, 35);
+  width: auto;
+  }
+
+li {
+  float: left;
+  height: auto;
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover {
+  background-color: rgb(207, 185, 151);
+  }
+
+.active {
+  background-color: rgb(207, 185, 151);
+  }
